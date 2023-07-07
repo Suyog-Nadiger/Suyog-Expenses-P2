@@ -1,0 +1,115 @@
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+.navbar-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-user .user-text,
+  .navbar-user .about-link {
+    margin-right: 30px;
+    font-size: 22px;
+  }
+  
+  .navbar-custom {
+    background-color: coral;
+  }
+  
+  .navbar-user .user-text:hover,
+  .navbar-user .about-link:hover {
+    background-color: lightcoral;
+    color: white;
+  }
+
+  .navbar-brand .fa-adjust {
+    margin-right: 30px;
+    font-size: 30px;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand .fa-money-bill-transfer {
+    font-size: 40px;
+    margin-right: 20px;
+  }
+  
+  .navbar-brand span {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  
+  .navbar-nav .nav-link {
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+  
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    background-color: lightcoral;
+    color: white;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    background-color: lightcoral;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(43, 3, 3, 0.1);
+  }
+  
+  .container h3 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: rgb(255, 200, 0);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: none;
+  }
+  
+  .home-logo {
+    font-size: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-logo button {
+    font-family: "Arial", sans-serif; /* Change the font */
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  
+  .home-logo:hover {
+    transform: scale(1.1);
+  }
+  
+  
